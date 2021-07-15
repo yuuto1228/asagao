@@ -14,7 +14,7 @@ import utility
 import datetime
 from config import *
 
-
+port = int(os.environ.get("PORT", 5000))
 client = discord.Client()
 client.isProcessing = False
 client.channel = None
